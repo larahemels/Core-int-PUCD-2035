@@ -35,11 +35,10 @@ main {
   grid-column:1 / 3;
 }
 
-.statement {
+.projects {
   grid-column:1 / 2;
 }
-
-.projects {
+.statement {
   grid-column:2 / 3;
 }
 
@@ -94,7 +93,7 @@ p {
 
 .location {
   font-size: 1rem;
-  font-family: 'Bitter', serif;
+  font-family: 'Comfortaa', serif;
   text-transform: uppercase;
   line-height: 1.5;
 }
