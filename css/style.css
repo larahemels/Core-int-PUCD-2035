@@ -3,7 +3,7 @@
 
 html {
   font-size: 1rem;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Bitter', serif;
   background-color: #000000;
 }
 
@@ -58,20 +58,20 @@ main {
 
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Bitter', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   margin-bottom:1rem;
 }
 
 h1 {
   font-size:3.375rem;
-  font-weight:800;
+  font-weight:500;
 }
 h2 {
   font-size:2.25rem;
 }
 h3 {
   font-size:1.5rem;
-  font-weight:300;
+  font-weight:200;
 
 }
 h4 {
@@ -81,7 +81,7 @@ h4 {
 
 li {
   font-size: 1.25rem;
-  font-family: 'Bitter', serif;
+  font-family: 'Comfortaa', sans-serif;
   line-height: 1.5;
   padding: .5rem 0;
 }
