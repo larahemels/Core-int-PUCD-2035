@@ -12,7 +12,7 @@ let y = 1;
 let easing = 0.05;
 
 function setup() {
-  createCanvas(720, 400);
+  createCanvas(1280, 720);
   noStroke();
 }
 
