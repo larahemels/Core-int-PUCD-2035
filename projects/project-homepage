@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Lara Hemels</title>
+  <title>Projects</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,29 +21,26 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="../css/style.css" rel="stylesheet" type="text/css">
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
   <main>
-
     <section class="intro-block">
-        <figure>
-        <img src="img/image for index.jpg" alt="typography" style="width:60%">
-      </figure>
-       </section>
-  
-      <section class="statement">
-<h2>Lara Hemels</h2>
-<h3>Core Interactiom</h3>
+      <h2>Projects</h2>
+
   </section>
-  <section class="projects">
+
+  <section class="statement">
     <ul>
-      <li><a href="projects/living-collection.html">Type Collection</a></li>
-      <li><a href="projects/index.html">Type Variations</a></li>
-      <li><a href="projects/index-p5js.html">Interaction Experiments</a></li>
+      <li><a href="living-collection.html">Type Collection</a></li>
+      <li><a href="index.html">Type Variations</a></li>
+      <li><a href="index-p5js.html">Interaction Experiments</a></li>
+      <li><a href="index-p5js.html">Interaction Experiments</a></li>
+
+
 
     </ul>
   </section>
@@ -52,13 +49,3 @@
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
-
-</html>

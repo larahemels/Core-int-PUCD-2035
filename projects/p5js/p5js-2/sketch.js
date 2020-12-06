@@ -9,7 +9,7 @@ let centerX = 0.0, centerY = 0.0;
 let radius = 45, rotAngle = -90;
 let accelX = 0.0, accelY = 0.0;
 let deltaX = 0.0, deltaY = 0.0;
-let springing = 0.0009, damping = 1;
+let springing = 0.00009, damping = 1;
 
 //corner nodes
 let nodes = 5;
