@@ -14,7 +14,7 @@ let angle2 = 0.0;
 let segLength = 120;
 
 function setup() {
-  createCanvas(1280, 720);
+  createCanvas(1400, 900);
   strokeWeight(50);
 
   //Stroke with a semi-transparent white

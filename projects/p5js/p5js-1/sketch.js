@@ -4,7 +4,7 @@
  * which responds to the speed of the mouse.
  */
 function setup() {
-  createCanvas(1280, 720);
+  createCanvas(1400, 800);
   background(0);
 }
 
