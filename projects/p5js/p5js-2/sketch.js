@@ -26,7 +26,7 @@ let frequency = [];
 let organicConstant = 1.0;
 
 function setup() {
-  createCanvas(1280, 720);
+  createCanvas(1280, 1000);
 
   //center shape in window
   centerX = width / 2;

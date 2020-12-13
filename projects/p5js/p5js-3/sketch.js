@@ -4,7 +4,7 @@
  * size of each box.
  */
 function setup() {
-  createCanvas(1400, 900);
+  createCanvas(1400, 1000);
   noStroke();
   rectMode(CENTER);
 }
