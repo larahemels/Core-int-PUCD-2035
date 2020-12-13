@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap:wghts@400..800");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+
+html {
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  background-color: #000000;
+}
+
+body {
+  padding:5rem 0;
+  color:#FFFFFF;
+}
+
+a {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+main {
+  display:grid;
+  grid-template-columns: 40px, 50px, auto, 50px, 40px,;
+  grid-auto-rows: 40px, 50px, auto, 50px, 40px;
+  grid-gap:15px
+  margin: 0 auto;
+}
+
+.header {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+h1 {
+  font-size:3.375rem;
+  font-weight:400;
+  font-family: 'EB Garamond', serif;
+  color:#ffd3d9;
+}
+h2 {
+  font-size:2.25rem;
+  font-family: 'Lato', sans-serif;
+  color:#ffd3d9;
+}
+}
+
+
+li {
+  font-size: 1rem;
+  font-family: 'Comfortaa', sans-serif;
+  line-height: 1.25;
+  padding: .5rem 0;
+  color:#D3D3D3;
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'Bitter', serif;
+  line-height: 1.25;
+  margin-bottom:1rem;
+}
+
+.location {
+  font-size: 1rem;
+  font-family: 'Comfortaa', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: .5rem;
+  font-family: 'Comfortaa', sans-serif;
+  padding-top: 1rem;
+}
