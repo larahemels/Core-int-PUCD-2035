@@ -25,46 +25,71 @@ a:hover {
 
 main {
   display:grid;
-  grid-template-columns: 1fr, 8fr, 1fr;
-  grid-template-rows: auto 90% auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
   grid-gap:2em;
   margin: 0 auto;
-  width: 85vw;
+  width: 85%;
   height: 100%;
 }
 .text1 {
-  grid-column:1/2;
+  grid-column:3/5;
   grid-row:1/2;
+  text-align: justify
 }
 .text2 {
-  grid-column:3/4;
+  grid-column:4/5;
   grid-row:1/2;
 }
 .header {
-  grid-column: 1/4;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+.collumn1 {
+  grid-column: 3/5;
   grid-row: 3/4;
+  text-align: justify
+}
+.collumn2 {
+  grid-column:2/3;
+  grid-row:3/4;
+  text-align: justify
+}
+.collumn3 {
+  grid-column:3/4;
+  grid-row:3/4;
+  text-align: justify
+}
+.collumn4 {
+  grid-column:4/5;
+  grid-row:3/4;
+  text-align: justify
 }
 
 h1 {
-  font-size:3.7rem;
+  font-size:3.5rem;
   font-weight:400;
   font-family: 'EB Garamond', serif;
   color:#ffd3d9;
   line-height: 110%
 }
 h2 {
+  font-size:2rem;
+  font-family: 'Lato', sans-serif;
+  color:#ffd3d9;
+  padding: 1em 0;
+  line-height: 120%
+}
+h3 {
+  font-size:0.85rem;
+  font-family: 'Lato', sans-serif;
+  color:#ffd3d9;
+  padding: 1em 0;
+    line-height: 120%
+}
+h4 {
   font-size:1rem;
   font-family: 'Lato', sans-serif;
   color:#ffd3d9;
-}
-h3 {
-  font-size:0.75rem;
-  font-family: 'Lato', sans-serif;
-  color:#ffd3d9;
-}
-h4 {
-  font-size:0.75rem;
-  font-family: 'Lato', sans-serif;
-  color:#ffd3d9;
   padding: 1.2rem 0;
-}
+    line-height: 120%
